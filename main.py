@@ -19,4 +19,4 @@ mask_2 = np.where((mask == 2) | (mask == 0), 0, 1).astype('uint8')
 image_rgd_nobg = image_rgb * mask_2[:, :, np.newaxis]
 
 plt.imshow(image_rgd_nobg), plt.axis('off')
-plt.show()
+plt.show() # code
